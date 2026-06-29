@@ -1,7 +1,51 @@
 # SkyScale Technologies
+# AWS Static Website Hosting Project
 
+**Intern Name:** Simran Sahay  
+**Project Name:** SkyScale Technologies – Cloud Hosted Static Website  
+**Duration:** 6 Weeks Internship (or mention your actual duration)  
+**Platform:** Amazon Web Services (AWS S3)
+
+---
+
+## 📌 Project Scope
+
+This project involves hosting a professional multi-page static website on Amazon S3 (Simple Storage Service). The website is developed using HTML, CSS, and JavaScript and deployed using AWS S3 static website hosting. It demonstrates real-world cloud deployment without using any backend server.
+
+The project includes:
+- Creating and configuring an S3 bucket  
+- Enabling static website hosting  
+- Setting public access permissions  
+- Uploading website files  
+- Deploying and accessing the website via S3 endpoint URL  
+
+---
+
+## 🔗 Live Demo
+
+http://skyscale-technologies-simran-2026.s3-website.ap-south-1.amazonaws.com
+
+---
+
+## 📸 Screenshots
+
+Refer to the `/screenshots` folder for:
+- S3 bucket configuration  
+- Static website hosting settings  
+- Public access permissions  
+- Live deployed website  
+
+---
+
+## 📌 Project Name (Detailed)
+
+SkyScale Technologies is a cloud consulting website built as a static frontend project and hosted on AWS S3. It simulates a real-world corporate web presence with multiple pages and interactive UI components.
+
+---
 A professional corporate website for a fictional cloud consulting company specializing in AWS cloud solutions, migration, and infrastructure management.
 
+## 🔗 Live Demo
+👉 [Click here to view live website](http://skyscale-technologies-simran-2026.s3-website.ap-south-1.amazonaws.com)
 ## Project Overview
 
 SkyScale Technologies is a modern, responsive two-page website designed as part of an MCA Cloud Computing portfolio. The website showcases cloud consulting services and is prepared for deployment on Amazon S3 as a static website. The contact form is designed for future integration with AWS Lambda + API Gateway.
