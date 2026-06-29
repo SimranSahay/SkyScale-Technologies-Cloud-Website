@@ -1,4 +1,3 @@
-#SkyScale Technologies
 # AWS Static Website Hosting Project
 This repository contains my S3 static website hosting project done during my internship.
 
@@ -22,7 +21,7 @@ The project includes:
 
 ---
 
-## 🔗 Live Demo 
+## 🔗 Live Demo((Currently unavailable due to resource cleanup)
 
 http://skyscale-technologies-simran-2026.s3-website.ap-south-1.amazonaws.com
 
