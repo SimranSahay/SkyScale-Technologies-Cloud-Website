@@ -21,7 +21,7 @@ The project includes:
 
 ---
 
-## 🔗 Live Demo((Currently unavailable due to resource cleanup)
+## 🔗 Live Demo(Currently unavailable due to resource cleanup)
 
 http://skyscale-technologies-simran-2026.s3-website.ap-south-1.amazonaws.com
 
