@@ -1,10 +1,11 @@
-# SkyScale Technologies
+#SkyScale Technologies
 # AWS Static Website Hosting Project
+This repository contains my S3 static website hosting project done during my internship.
 
-**Intern Name:** Simran Sahay  
+**Name:** Simran Sahay  
 **Project Name:** SkyScale Technologies – Cloud Hosted Static Website  
-**Duration:** 6 Weeks Internship (or mention your actual duration)  
-**Platform:** Amazon Web Services (AWS S3)
+**Duration:** 6 Weeks Internship
+**Intern ID:** CITS4194
 
 ---
 
@@ -21,7 +22,7 @@ The project includes:
 
 ---
 
-## 🔗 Live Demo
+## 🔗 Live Demo 
 
 http://skyscale-technologies-simran-2026.s3-website.ap-south-1.amazonaws.com
 
