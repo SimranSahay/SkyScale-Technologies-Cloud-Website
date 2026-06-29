@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SkyScale Technologies - Empowering businesses through smarter cloud solutions. AWS cloud migration, infrastructure management, and cloud security services.">
+    <meta name="keywords" content="cloud consulting, AWS, cloud migration, cloud security, DevOps, serverless">
+    <meta name="author" content="SkyScale Technologies">
+    <title>SkyScale Technologies | Cloud Consulting Services</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 4L4 12V28L20 36L36 28V12L20 4Z" fill="#2563EB"/>
+                        <path d="M20 8L8 14V26L20 32L32 26V14L20 8Z" fill="#38BDF8"/>
+                        <path d="M20 12L12 16V24L20 28L28 24V16L20 12Z" fill="#FFFFFF"/>
+                    </svg>
+                    <span>SkyScale</span>
+                </a>
+                
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#industries" class="nav-link">Industries</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <a href="contact.html" class="cta-button">Get Started</a>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul class="mobile-nav-links">
+                <li><a href="#home" class="mobile-nav-link">Home</a></li>
+                <li><a href="#about" class="mobile-nav-link">About</a></li>
+                <li><a href="#services" class="mobile-nav-link">Services</a></li>
+                <li><a href="#industries" class="mobile-nav-link">Industries</a></li>
+                <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Empowering Businesses Through Smarter Cloud Solutions</h1>
+                    <p>We help businesses migrate to AWS securely and efficiently. Transform your infrastructure with our expert cloud consulting services.</p>
+                    <div class="hero-buttons">
+                        <a href="contact.html" class="btn btn-primary">Get Started</a>
+                        <a href="#about" class="btn btn-secondary">Learn More</a>
+                    </div>
+                    <div class="trust-indicator">
+                        <span>★★★★★</span>
+                        <span>Trusted by Growing Businesses</span>
+                    </div>
+                </div>
+                <div class="hero-illustration">
+                    <svg viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Cloud Base -->
+                        <ellipse cx="250" cy="320" rx="180" ry="40" fill="#E2E8F0"/>
+                        <!-- Main Cloud -->
+                        <path d="M150 200C150 160 180 130 220 130C230 130 240 132 250 135C260 100 300 70 350 70C400 70 440 100 450 140C480 150 500 180 500 220C500 270 460 310 410 310H190C140 310 100 270 100 220C100 210 102 200 105 190" fill="#2563EB" opacity="0.1"/>
+                        <path d="M150 200C150 160 180 130 220 130C230 130 240 132 250 135C260 100 300 70 350 70C400 70 440 100 450 140C480 150 500 180 500 220C500 270 460 310 410 310H190C140 310 100 270 100 220C100 210 102 200 105 190" stroke="#2563EB" stroke-width="2"/>
+                        <!-- Server Icons -->
+                        <rect x="180" y="180" width="60" height="40" rx="4" fill="#38BDF8" stroke="#2563EB" stroke-width="2"/>
+                        <rect x="260" y="160" width="60" height="40" rx="4" fill="#38BDF8" stroke="#2563EB" stroke-width="2"/>
+                        <rect x="340" y="180" width="60" height="40" rx="4" fill="#38BDF8" stroke="#2563EB" stroke-width="2"/>
+                        <!-- Connection Lines -->
+                        <line x1="240" y1="200" x2="260" y2="180" stroke="#2563EB" stroke-width="2"/>
+                        <line x1="320" y1="180" x2="340" y2="200" stroke="#2563EB" stroke-width="2"/>
+                        <!-- Data Flow -->
+                        <circle cx="250" cy="140" r="8" fill="#38BDF8">
+                            <animate attributeName="cy" values="140;160;140" dur="2s" repeatCount="indefinite"/>
+                        </circle>
+                        <circle cx="300" cy="130" r="6" fill="#38BDF8">
+                            <animate attributeName="cy" values="130;150;130" dur="2.5s" repeatCount="indefinite"/>
+                        </circle>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About SkyScale</h2>
+                    <p class="about-description">SkyScale Technologies is a cloud consulting company dedicated to helping businesses transform their IT infrastructure through AWS solutions. We combine technical expertise with a customer-first approach to deliver measurable results.</p>
+                    
+                    <div class="mission-vision">
+                        <div class="mission">
+                            <h3>Our Mission</h3>
+                            <p>Empowering businesses to innovate through secure, scalable, and intelligent cloud solutions.</p>
+                        </div>
+                        <div class="vision">
+                            <h3>Our Vision</h3>
+                            <p>To become the most trusted cloud transformation partner for businesses embracing digital innovation.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="core-values">
+                        <h3>Core Values</h3>
+                        <div class="values-grid">
+                            <div class="value-item">
+                                <span class="value-icon">✓</span>
+                                <span>Innovation</span>
+                            </div>
+                            <div class="value-item">
+                                <span class="value-icon">✓</span>
+                                <span>Security</span>
+                            </div>
+                            <div class="value-item">
+                                <span class="value-icon">✓</span>
+                                <span>Reliability</span>
+                            </div>
+                            <div class="value-item">
+                                <span class="value-icon">✓</span>
+                                <span>Transparency</span>
+                            </div>
+                            <div class="value-item">
+                                <span class="value-icon">✓</span>
+                                <span>Customer Success</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-illustration">
+                    <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="50" y="50" width="300" height="200" rx="8" fill="#F8FAFC" stroke="#2563EB" stroke-width="2"/>
+                        <rect x="70" y="80" width="100" height="60" rx="4" fill="#38BDF8" opacity="0.3"/>
+                        <rect x="190" y="80" width="100" height="60" rx="4" fill="#38BDF8" opacity="0.3"/>
+                        <rect x="70" y="160" width="100" height="60" rx="4" fill="#38BDF8" opacity="0.3"/>
+                        <rect x="190" y="160" width="100" height="60" rx="4" fill="#38BDF8" opacity="0.3"/>
+                        <path d="M200 280L200 350" stroke="#2563EB" stroke-width="2"/>
+                        <rect x="150" y="350" width="100" height="40" rx="4" fill="#2563EB"/>
+                        <text x="200" y="375" text-anchor="middle" fill="white" font-size="12">AWS</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section section-alt" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Comprehensive cloud solutions tailored to your business needs</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 4L4 14V34L24 44L44 34V14L24 4Z" fill="#2563EB" opacity="0.1"/>
+                            <path d="M24 4L4 14V34L24 44L44 34V14L24 4Z" stroke="#2563EB" stroke-width="2"/>
+                            <path d="M24 14L14 19V29L24 34L34 29V19L24 14Z" fill="#38BDF8"/>
+                        </svg>
+                    </div>
+                    <h3>Cloud Migration</h3>
+                    <p>Move your existing infrastructure to AWS with minimal downtime and zero data loss. We handle the entire migration process seamlessly.</p>
+                    <a href="contact.html" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="4" y="8" width="40" height="32" rx="4" fill="#2563EB" opacity="0.1"/>
+                            <rect x="4" y="8" width="40" height="32" rx="4" stroke="#2563EB" stroke-width="2"/>
+                            <line x1="4" y1="16" x2="44" y2="16" stroke="#2563EB" stroke-width="2"/>
+                            <circle cx="10" cy="12" r="2" fill="#38BDF8"/>
+                            <circle cx="16" cy="12" r="2" fill="#38BDF8"/>
+                        </svg>
+                    </div>
+                    <h3>Cloud Infrastructure Management</h3>
+                    <p>Optimize and manage your cloud infrastructure 24/7. We ensure your systems run efficiently, securely, and cost-effectively.</p>
+                    <a href="contact.html" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 4C13 4 4 13 4 24C4 35 13 44 24 44C35 44 44 35 44 24C44 13 35 4 24 4Z" fill="#2563EB" opacity="0.1"/>
+                            <path d="M24 4C13 4 4 13 4 24C4 35 13 44 24 44C35 44 44 35 44 24C44 13 35 4 24 4Z" stroke="#2563EB" stroke-width="2"/>
+                            <path d="M24 12V24L32 28" stroke="#38BDF8" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Serverless Solutions</h3>
+                    <p>Build scalable applications without managing servers. Leverage AWS Lambda and serverless architecture for cost efficiency.</p>
+                    <a href="contact.html" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 4L8 12V36L24 44L40 36V12L24 4Z" fill="#2563EB" opacity="0.1"/>
+                            <path d="M24 4L8 12V36L24 44L40 36V12L24 4Z" stroke="#2563EB" stroke-width="2"/>
+                            <path d="M24 14V34M16 18L24 14L32 18" stroke="#38BDF8" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Cloud Security</h3>
+                    <p>Protect your cloud assets with enterprise-grade security protocols and compliance standards. Security is our top priority.</p>
+                    <a href="contact.html" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="24" cy="24" r="16" fill="#2563EB" opacity="0.1"/>
+                            <circle cx="24" cy="24" r="16" stroke="#2563EB" stroke-width="2"/>
+                            <path d="M24 16V24L30 28" stroke="#38BDF8" stroke-width="2"/>
+                            <circle cx="24" cy="24" r="4" fill="#38BDF8"/>
+                        </svg>
+                    </div>
+                    <h3>DevOps & CI/CD</h3>
+                    <p>Streamline your development pipeline with automated CI/CD workflows. Deploy faster and more reliably with DevOps best practices.</p>
+                    <a href="contact.html" class="service-link">Learn More →</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 20L24 8L40 20V38C40 40.2091 38.2091 42 36 42H12C9.79086 42 8 40.2091 8 38V20Z" fill="#2563EB" opacity="0.1"/>
+                            <path d="M8 20L24 8L40 20V38C40 40.2091 38.2091 42 36 42H12C9.79086 42 8 40.2091 8 38V20Z" stroke="#2563EB" stroke-width="2"/>
+                            <path d="M18 42V28H30V42" stroke="#38BDF8" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Cloud Cost Optimization</h3>
+                    <p>Reduce your cloud spending without compromising performance. We identify cost-saving opportunities and implement efficient strategies.</p>
+                    <a href="contact.html" class="service-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section class="section" id="industries">
+        <div class="container">
+            <h2 class="section-title">Industries We Serve</h2>
+            <p class="section-subtitle">Tailored cloud solutions for diverse business sectors</p>
+            
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 4C11.1634 4 4 11.1634 4 20C4 28.8366 11.1634 36 20 36C28.8366 36 36 28.8366 36 20C36 11.1634 28.8366 4 20 4Z" fill="#2563EB" opacity="0.1"/>
+                            <path d="M20 4C11.1634 4 4 11.1634 4 20C4 28.8366 11.1634 36 20 36C28.8366 36 36 28.8366 36 20C36 11.1634 28.8366 4 20 4Z" stroke="#2563EB" stroke-width="2"/>
+                            <path d="M20 12V20L26 24" stroke="#38BDF8" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Healthcare</h3>
+                    <p>HIPAA-compliant cloud solutions for healthcare providers and medical institutions.</p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="4" y="8" width="32" height="24" rx="4" fill="#2563EB" opacity="0.1"/>
+                            <rect x="4" y="8" width="32" height="24" rx="4" stroke="#2563EB" stroke-width="2"/>
+                            <line x1="4" y1="16" x2="36" y2="16" stroke="#2563EB" stroke-width="2"/>
+                            <circle cx="10" cy="12" r="2" fill="#38BDF8"/>
+                        </svg>
+                    </div>
+                    <h3>Finance</h3>
+                    <p>Secure and compliant cloud infrastructure for financial services and fintech companies.</p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 4L4 12V28L20 36L36 28V12L20 4Z" fill="#2563EB" opacity="0.1"/>
+                            <path d="M20 4L4 12V28L20 36L36 28V12L20 4Z" stroke="#2563EB" stroke-width="2"/>
+                            <path d="M20 12V24L28 28" stroke="#38BDF8" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Education</h3>
+                    <p>Scalable cloud solutions for educational institutions and e-learning platforms.</p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 12H36V32C36 34.2091 34.2091 36 32 36H8C5.79086 36 4 34.2091 4 32V12Z" fill="#2563EB" opacity="0.1"/>
+                            <path d="M4 12H36V32C36 34.2091 34.2091 36 32 36H8C5.79086 36 4 34.2091 4 32V12Z" stroke="#2563EB" stroke-width="2"/>
+                            <path d="M4 8H36V12H4V8Z" stroke="#2563EB" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Retail</h3>
+                    <p>High-performance cloud infrastructure for e-commerce and retail businesses.</p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="4" y="4" width="32" height="32" rx="4" fill="#2563EB" opacity="0.1"/>
+                            <rect x="4" y="4" width="32" height="32" rx="4" stroke="#2563EB" stroke-width="2"/>
+                            <path d="M12 20H28M12 14H28M12 26H20" stroke="#38BDF8" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Manufacturing</h3>
+                    <p>IoT-enabled cloud solutions for smart manufacturing and industrial automation.</p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="16" fill="#2563EB" opacity="0.1"/>
+                            <circle cx="20" cy="20" r="16" stroke="#2563EB" stroke-width="2"/>
+                            <path d="M20 12V28M12 20H28" stroke="#38BDF8" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Startups</h3>
+                    <p>Agile cloud solutions designed for startups to scale rapidly and cost-effectively.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="section section-alt" id="why-choose-us">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <p class="section-subtitle">What sets SkyScale apart from other cloud consulting firms</p>
+            
+            <div class="why-choose-grid">
+                <div class="why-choose-item">
+                    <div class="why-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 4L4 10V22L16 28L28 22V10L16 4Z" fill="#2563EB"/>
+                            <path d="M16 8L8 12V20L16 24L24 20V12L16 8Z" fill="#38BDF8"/>
+                        </svg>
+                    </div>
+                    <h3>AWS Expertise</h3>
+                    <p>Certified AWS professionals with deep experience in cloud architecture and migration strategies.</p>
+                </div>
+                
+                <div class="why-choose-item">
+                    <div class="why-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4Z" fill="#2563EB"/>
+                            <path d="M16 10V16L20 18" stroke="#FFFFFF" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Reliable Infrastructure</h3>
+                    <p>We build resilient cloud architectures that ensure 99.9% availability and business continuity.</p>
+                </div>
+                
+                <div class="why-choose-item">
+                    <div class="why-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 4L8 8V24L16 28L24 24V8L16 4Z" fill="#2563EB"/>
+                            <path d="M12 16H20" stroke="#FFFFFF" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Cost Optimization</h3>
+                    <p>Strategic cloud cost management to maximize your ROI and minimize unnecessary expenses.</p>
+                </div>
+                
+                <div class="why-choose-item">
+                    <div class="why-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="12" fill="#2563EB"/>
+                            <path d="M16 8V24M8 16H24" stroke="#FFFFFF" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>24×7 Support</h3>
+                    <p>Round-the-clock support and monitoring to keep your cloud operations running smoothly.</p>
+                </div>
+                
+                <div class="why-choose-item">
+                    <div class="why-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="4" y="4" width="24" height="24" rx="4" fill="#2563EB"/>
+                            <path d="M8 16H24M16 8V24" stroke="#FFFFFF" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Scalable Solutions</h3>
+                    <p>Cloud architectures that grow with your business, from startup to enterprise scale.</p>
+                </div>
+                
+                <div class="why-choose-item">
+                    <div class="why-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 4L8 8V24L16 28L24 24V8L16 4Z" fill="#2563EB"/>
+                            <path d="M12 12L16 14L20 12M12 16L16 18L20 16M12 20L16 22L20 20" stroke="#FFFFFF" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Security Best Practices</h3>
+                    <p>Enterprise-grade security implementations following AWS security best practices and compliance standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How We Deliver Section -->
+    <section class="section" id="process">
+        <div class="container">
+            <h2 class="section-title">How We Deliver Cloud Success</h2>
+            <p class="section-subtitle">Our proven methodology for successful cloud transformation</p>
+            
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Consultation</h3>
+                        <p>We begin with a thorough assessment of your current infrastructure and business requirements.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Strategy & Planning</h3>
+                        <p>We develop a customized cloud migration roadmap tailored to your specific needs and timeline.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Cloud Migration</h3>
+                        <p>We execute the migration with minimal disruption, ensuring data integrity and system availability.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Optimization</h3>
+                        <p>We fine-tune your cloud environment for performance, security, and cost efficiency.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Continuous Support</h3>
+                        <p>We provide ongoing support, monitoring, and optimization to ensure long-term success.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics-section">
+        <div class="container">
+            <div class="statistics-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="25">0</div>
+                    <div class="stat-label">Successful Cloud Deployments</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-label">Business Clients</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-number" data-target="99.9">0</div>
+                    <div class="stat-label">Cloud Availability</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-number" data-target="5">0</div>
+                    <div class="stat-label">AWS Specialists</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section section-alt" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <p class="section-subtitle">Trusted by businesses across various industries</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"SkyScale Technologies transformed our entire infrastructure. Their AWS expertise helped us reduce costs by 40% while improving performance. Highly recommended."</p>
+                    <div class="testimonial-author">
+                        <div class="author-name">Sarah Johnson</div>
+                        <div class="author-company">CTO, TechStart Inc.</div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"The migration process was seamless. SkyScale team was professional, responsive, and delivered exactly what they promised. Our cloud environment has never been more reliable."</p>
+                    <div class="testimonial-author">
+                        <div class="author-name">Michael Chen</div>
+                        <div class="author-company">CEO, DataFlow Solutions</div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"Outstanding support and technical expertise. They helped us implement a serverless architecture that scaled perfectly with our growth. True cloud professionals."</p>
+                    <div class="testimonial-author">
+                        <div class="author-name">Emily Rodriguez</div>
+                        <div class="author-company">VP Engineering, CloudMed</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Cloud Infrastructure?</h2>
+                <p>Let's discuss how SkyScale Technologies can help your business leverage the power of AWS cloud solutions.</p>
+                <a href="contact.html" class="btn btn-primary btn-large">Contact Us Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 4L4 12V28L20 36L36 28V12L20 4Z" fill="#2563EB"/>
+                            <path d="M20 8L8 14V26L20 32L32 26V14L20 8Z" fill="#38BDF8"/>
+                            <path d="M20 12L12 16V24L20 28L28 24V16L20 12Z" fill="#FFFFFF"/>
+                        </svg>
+                        <span>SkyScale</span>
+                    </div>
+                    <p class="footer-description">Empowering businesses through smarter cloud solutions. Your trusted partner for AWS cloud transformation.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Cloud Migration</a></li>
+                        <li><a href="#services">Infrastructure Management</a></li>
+                        <li><a href="#services">Serverless Solutions</a></li>
+                        <li><a href="#services">Cloud Security</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Industries</h4>
+                    <ul class="footer-links">
+                        <li><a href="#industries">Healthcare</a></li>
+                        <li><a href="#industries">Finance</a></li>
+                        <li><a href="#industries">Education</a></li>
+                        <li><a href="#industries">Startups</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="#" aria-label="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0C5.37 0 0 5.37 0 12C0 17.31 3.435 21.795 8.205 23.385C8.805 23.49 9.03 23.13 9.03 22.815C9.03 22.545 9.015 21.735 9.015 20.85C6 21.45 5.22 19.89 5.22 19.89C4.605 18.345 3.735 17.97 3.735 17.97C2.535 17.355 3.825 17.37 3.825 17.37C5.145 17.46 5.85 18.72 5.85 18.72C7.02 20.715 8.91 20.13 9.06 20.055C9.18 19.32 9.495 18.81 9.84 18.54C7.17 18.27 4.35 17.235 4.35 12.285C4.35 10.86 4.86 9.69 5.67 8.76C5.535 8.49 5.085 7.155 5.79 5.34C5.79 5.34 6.885 5.01 9.03 6.72C10.08 6.48 11.19 6.36 12.3 6.36C13.41 6.36 14.52 6.48 15.57 6.72C17.715 5.01 18.81 5.34 18.81 5.34C19.515 7.155 19.065 8.49 18.93 8.76C19.74 9.69 20.25 10.86 20.25 12.285C20.25 17.25 17.415 18.27 14.73 18.54C15.165 18.885 15.54 19.545 15.54 20.565C15.54 21.99 15.525 23.145 15.525 22.815C15.525 23.13 15.75 23.49 16.35 23.385C21.12 21.795 24.555 17.31 24.555 12C24.555 5.37 19.185 0 12.555 0H12Z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                </div>
+                
+                <div class="footer-copyright">
+                    <p>&copy; 2024 SkyScale Technologies. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+    <link rel="stylesheet" href="contact.css">
+</body>
+</html>
